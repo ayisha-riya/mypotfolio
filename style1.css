@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Oleo Script", system-ui;
+}
+#container{
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.listitem{
+    display: inline;
+    margin: 0px 20px;
+    
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font: 20px;
+    
+}
+.homecontent{
+    margin-top: 200px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+#introlink{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#iname{
+    color: palevioletred;
+}
+#uname{
+    font-family: "Fira Sans", sans-serif;
+}
+.homeimage{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+ font-size: 40px;
+ font-family: "Playwrite BR", cursive;
+}
+.subhead{
+   font-size: 20px; 
+   color: green;
+   font-family: "Playwrite BR", cursive;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.progressbar{
+    margin-left: 70px;
+}
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    align-items: center;
+    gap: 2rem;
+}
+.bar{
+    font-family: "Sanchez", serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0px;
+    position: relative;
+
+}
+.barhead,.barper{
+    font-size: 20px;
+    
+}
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0%;
+
+}
+.htmlbar{
+    width: 90%;
+    background-color: orangered;
+}
+.cssbar{
+    width: 80%;
+    background-color: orangered;
+}
+.bsbar{
+    width: 70%;
+    background-color: orangered;
+}
+.jsbar{
+    width: 60%;
+    background-color: orangered;
+}
+.icon{
+    margin-top: 70px;
+}
+.skilling{
+    margin-left: 150px;
+}
+.links:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+#contacts{
+    margin: 8%;
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: orangered;
+    
+}
+.icons:hover{
+    background-image: linear-gradient(to bottom right, red,yellow,white);
+    animation:rotate  2s;
+}
+.brand{
+    color: black;
+    font-size: 25px;
+
+}
+.brand:hover{
+    color: white;
+}
+#copyright{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+.uparrow{
+    float: right;
+    margin: -40px 30px 30px 0px;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg)
+    }
+    25%{
+        transform: rotate(-30deg)
+    }
+    40%{
+        transform: rotate(30deg)
+    }
+    60%{
+        transform: rotate(-30deg)
+    }
+    80%{
+        transform: rotate(30deg)
+    }
+    100%{
+        transform: rotate(-30deg)
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
